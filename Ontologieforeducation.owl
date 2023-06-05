@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#"
+     xml:base="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Beginning -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Beginning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Category -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Category_of_the_data -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Category_of_the_data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Courses_offered -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Courses_offered"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Ending -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Ending"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Extend -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Extend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Extend_to_the_format -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Extend_to_the_format"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Field_of_activity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Field_of_activity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Intended_audience -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Intended_audience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Key -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Key"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Languages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Languages"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Manifestation_statement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Manifestation_statement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Medium_of_performance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Medium_of_performance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Nomen -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Nomen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Place -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Place">
+        <rdfs:comment>has_Location</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Profession -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Profession"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Resource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_Resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_User_rights -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#has_User_rights"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#is_Agent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#is_Agent"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://lexvo.org/id/iso6393/tag -->
+
+    <owl:DatatypeProperty rdf:about="http://lexvo.org/id/iso6393/tag"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#IRI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#IRI"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Literal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#langString -->
+
+    <owl:DatatypeProperty rdf:about="&rdf;langString"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#String -->
+
+    <owl:DatatypeProperty rdf:about="&xsd;String"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#dateTimeStamp -->
+
+    <owl:DatatypeProperty rdf:about="&xsd;dateTimeStamp"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#decimal -->
+
+    <owl:DatatypeProperty rdf:about="&xsd;decimal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Assistant_professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Assistant_professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Profession"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Associate_professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Associate_professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Profession"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Bachelor_students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Bachelor_students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Beginning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Beginning"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category_of_the_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category_of_the_data">
+        <rdfs:comment>Format of the data</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Communications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Communications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Computer_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Computer_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Courses_offered -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Courses_offered">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Ending -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Ending"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#English -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#English">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Extend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Extend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Extend_to_the_format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Extend_to_the_format"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Field_of_activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Field_of_activity">
+        <rdfs:comment>Field of activity of the professors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#French -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#French">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#German -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#German">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Language"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Information_science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Information_science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Intended_audience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Intended_audience"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Key -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Key">
+        <rdfs:comment>Keywords related with the discipline described</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Languages -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Languages">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Manifestation_statement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Manifestation_statement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Master_students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Master_students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Medium_of_performance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Medium_of_performance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Nomen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Nomen"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Phd_Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Phd_Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Students"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Place/Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Place/Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Profession -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Profession">
+        <rdfs:comment>Occupation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Professor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Profession"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Intended_audience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Teachers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Teachers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Agent"/>
+        <rdfs:comment>The name of the professors that teach in the university and their coordinates</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Use_rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dell/ontologies/2023/3/untitled-ontology-222#Use_rights"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
